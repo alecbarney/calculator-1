@@ -39,7 +39,10 @@ reader.question("What would you like to calculate?", function(input){
 		console.log(Math.sqrt(num1));
 
 	}
-
+	
+if (mathSymbol=== "sq"){
+	console.log(num1 * num1)
+}
 	// This line closes the connection to the command line interface.
 	reader.close()
 
